@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">homework_2</string>
+    <string name="profiletext">Профиль</string>
+    <string name="settingstext">Настройки</string>
+    <string name="homescreentext">Главный экран</string>
+    <string name="productstext">Продукты</string>
+    <string name="ratingtext">Рейтинг</string>
+    <string name="action">Акция</string>
+    <string name="youraction">Ваша акция:</string>
+    <string name="send">Отправить</string>
+</resources>

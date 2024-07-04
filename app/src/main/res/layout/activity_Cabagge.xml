@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/ivImage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:contentDescription="Cabbage" />
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_below="@id/ivImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:paddingTop="8dp"
+        android:text="Cabbage" />
+
+    <TextView
+        android:id="@+id/shortDescriptionTextView"
+        android:layout_below="@id/titleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:paddingTop="4dp"
+        android:text="veggies" />
+
+    <TextView
+        android:id="@+id/longDescriptionTextView"
+        android:layout_below="@id/shortDescriptionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:paddingTop="4dp"
+        android:text="Long Description" />
+
+    <ImageView
+        android:id="@+id/backButton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:padding="8dp"
+        android:src="@drawable/ic_back"
+        android:contentDescription="@string/back_button_desc" />
+</RelativeLayout>
